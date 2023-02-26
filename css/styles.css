@@ -61,6 +61,33 @@ p {
 }
 
 footer p {
+main div {
+  background-color: #0A0AB4;  
+  margin-top: 25px;
+  padding: 10px 0 13px;
+  border-radius: 10px;
+  border: 1px solid #00BC86;
+}
+
+.img-gif,
+.img-anchor {
+  border-radius: 15px;
+  border: 2px solid #00BC86;
+}
+
+footer img {
+  max-height: 40%;
+  max-width: 40%;
+  margin: auto;
+}
+
+footer div {
+  background-color: #0A0AB4;
+  padding: 10px 0;
+  margin: 40px 130px;
+  border-radius: 10px;
+  border: 1px solid #00BC86;
+}
 
 .text-impressum {
   font-size: 13px;
