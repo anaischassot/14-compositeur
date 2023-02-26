@@ -9,12 +9,12 @@ img {
   display: block;
   max-width: 100%;
 }
+
 .nav-header {
   display: flex;
   flex-direction: row; 
   justify-content: center;
   justify-content: space-between;
-  margin: 15px 0 30px;
   margin-top: 20px;
   font-size: 13px;
   font-weight: 600;
@@ -40,15 +40,19 @@ strong {
   color: #FF5267;
 }
 
+h1 {
+  font-size: 34.5px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 50px 0 25px;
+}
+
 .text-legend {
   margin: 8px 0 25px;
   font-size: 12px;
 }
 
-h1 {
-  font-size: 34.5px;
-  font-family: 'Josefin Sans', sans-serif;
-  margin: 50px 0 25px;
+.text-music {
+  margin-bottom: 25px;
 }
 
 a,
@@ -57,6 +61,9 @@ p {
 }
 
 footer p {
+
+.text-impressum {
   font-size: 13px;
   line-height: 1.5;
+  margin-bottom: 30px;
 }
