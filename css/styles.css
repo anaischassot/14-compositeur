@@ -1,7 +1,8 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  border: solid 2px black;
+  background: linear-gradient(90deg, rgba(60,40,199,1) 10%, rgba(32,116,147,1) 50%, rgba(0,106,89,1) 81%);
 }
 
 img {
@@ -14,12 +15,14 @@ img {
   justify-content: center;
   justify-content: space-between;
   margin: 15px 0 30px;
+  margin-top: 20px;
   font-size: 13px;
+  font-weight: 600;
 }
 
 nav,
 h1,
-.texte-legendes,
+.text-legend,
 div,
 footer {
   text-align: center;
@@ -37,7 +40,7 @@ strong {
   color: #FF5267;
 }
 
-.texte-legendes {
+.text-legend {
   margin: 8px 0 25px;
   font-size: 12px;
 }
@@ -45,6 +48,7 @@ strong {
 h1 {
   font-size: 34.5px;
   font-family: 'Josefin Sans', sans-serif;
+  margin: 50px 0 25px;
 }
 
 a,
