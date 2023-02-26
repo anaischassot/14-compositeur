@@ -13,6 +13,8 @@ img {
   flex-direction: row; 
   justify-content: center;
   justify-content: space-between;
+  margin: 15px 0 30px;
+  font-size: 13px;
 }
 
 nav,
@@ -25,11 +27,32 @@ footer {
 
 p {
   color: #FFC0CE;
+  font-size: 15px;
+  line-height: 1.45;
 }
 
 a,
 h1,
-strong,
-a div header {
+strong {
   color: #FF5267;
+}
+
+.texte-legendes {
+  margin: 8px 0 25px;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 34.5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a,
+p {
+  font-family: 'Roboto Slab', serif;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 1.5;
 }
